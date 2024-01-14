@@ -27,7 +27,7 @@ const CONFIG = {
 
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://gmail.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Toggl',
+			icon: 'power-circle',
+			link: 'https://track.toggl.com',
 		},
 		{
 			id: '4',
@@ -78,14 +78,14 @@ const CONFIG = {
 		{
 			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
+			icon: 'bot',
 			link: 'https://reddit.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'messages-square',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Reddit',
+					link: 'https://reddit.com',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Mastodon',
+					link: 'https://phanpy.social',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Bookwyrm',
+					link: 'https://bookwyrm.social',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'kbin',
+					link: 'https://kbin.social',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'newspaper',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Hacker News',
+					link: 'https://news.ycombinator.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Ars',
+					link: 'https://arstechnica.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'The Journal',
+					link: 'https://www.thejournal.ie',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'RTÉ',
+					link: 'https://rte.ie',
 				},
 			],
 		},

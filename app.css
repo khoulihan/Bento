@@ -12,41 +12,41 @@
   /* Font Size */
   --fg-primary: 12vh; /* Time and Greetings */
   --fg-secondary: 3vh; /* Greetings and Weather widger */
-  --fg-date: 8vh; /* Date */
+  --fg-date: 12vh; /* Date */
   --fg-list: 2vh; /* Links List */
-  --icon: 3vh; /* Icon Size */
+  --icon: 4vh; /* Icon Size */
 
   /* Fonts Color */
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
+  --fg: #232a2e; /* Foreground color */
+  --sfg: #2d353b; /* Sceondary Foreground color */
 
   /* Light Colors  */
-  --accent: #57a0d9; /* Hover color */
+  --accent: #d3c6aa; /* Hover color */
   --background: #f5f5f5; /* Background color */
-  --cards: #e4e6e6; /* Cards color */
+  --cards: #9da9a0; /* Cards color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
   --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
+    rgba(167, 179, 170, 0.9),
+    rgba(86, 99, 95, 0.8)
   ); /* Filter color */
 }
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --accent: #4f585e; /* Hover color */
+  --background: #232a2e; /* Background color */
+  --cards: #343f44; /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  --fg: #d4c7ab; /* Foreground color */
+  --sfg: #a7c080; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.85)
+    rgba(157, 169, 160, 0.7),
+    rgba(35, 42, 46, 0.8)
   ); /* Filter color */
 }
 
